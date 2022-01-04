@@ -14,7 +14,6 @@ jobs:
           vercel-org-id: ${{ secrets.ORG_ID}}  #Required
           vercel-project-id: ${{ secrets.PROJECT_ID}} #Required
 
-name: deploy to vercel production upon successful merge to main
 on:
   push:
     branches:
