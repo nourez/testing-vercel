@@ -4,6 +4,7 @@ jobs:
   vercel: 
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       # deploy app to vercel
       - name: deploy site to vercel      
         uses: amondnet/vercel-action@v20
