@@ -10,7 +10,12 @@ const Home: NextPage = () => {
   
   if (error) return <div>failed to load</div>
   if (!data) return <div>loading...</div>
-  return <h1>Hello There User #{data.id}</h1>
+  return (
+    <>
+      <h1>Hello There User #{data.id}</h1>
+      <h2>Have an incredibly average day</h2>
+    </> 
+  )
 
 }
 
